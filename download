@@ -1,0 +1,31 @@
+﻿# Virtual Environment
+rag_agent/
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector Database
+chroma_db/
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & Temp
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+.env
+.env.local
+config.py
+secrets.py
